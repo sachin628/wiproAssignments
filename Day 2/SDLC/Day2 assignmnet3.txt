@@ -1,0 +1,80 @@
+Assignment 3: Research and compare SDLC models suitable for engineering projects. Present findings on Waterfall, Agile, Spiral, and V-Model approaches, 
+emphasizing their advantages, disadvantages, and applicability in different engineering contexts.
+
+Software Development Life Cycle (SDLC) Models
+1.Waterfall Model:-It is a step by step process to develop the software.In waterfall model, each stage complete the task one by one. Progress is seen as flowing steadily downwards (like a waterfall) through phases
+ such as Conception, Initiation, Analysis, Design, Construction, Testing, and Maintenance.
+Advantages:
+1.Clear structure and easy to understand.
+2. Each phase has specific deliverables.
+3.Due to its rigid nature, each phase must be completed before the next begins.
+
+disadvatages:
+1.Client can review the project only at the end.
+2. Only suitable for small projects.
+3. High risk if the requirements are not well-understood from the beginning.
+
+When to use waterfall model:-(Applicability)
+1.for small scale application. e.g. notepad, alaram app, remainder app
+2.Suitable for projects with well-defined requirements and where changes are unlikely.
+
+2. Agile Model:- Agile is an iterative and incremental model, which emphasizes flexibility, customer feedback, and rapid delivery of small, functional segments of the application.
+In agile we develop the software in sprints, --> particular duration of time (2 to 4 weeks).
+Advantages:
+1.Flexibility: Easily adaptable to changes.
+2.Customer Involvement: Regular feedback from the customer ensures the product meets their needs.
+3.Early and Predictable Delivery: Features are delivered incrementally, improving predictability.
+
+Disadvantages:
+1.Less Predictable: Can be less predictable due to its iterative nature.
+2.Documentation: Focuses less on documentation and more on code development.
+
+where we use agile model:-
+1. from mid level to large level project we can use agile.
+2. when the requirements are continuously changing.
+
+3.Spiral Model:- the software are developed based on iterations.The Spiral Model combines iterative development (prototyping) with the systematic aspects of the Waterfall Model.
+ It focuses on risk assessment and minimizing project risk by breaking the project into smaller segments.
+
+Advantages
+1.Risk Management: Emphasis on identifying and reducing risks early.
+2.Flexibility: Incorporates changes based on feedback throughout the lifecycle.
+3.Customer Satisfaction: Continuous customer involvement ensures the product meets their expectations.
+
+Disadvantages:
+1.Complexity: Can be complex to manage.
+2.Cost: Can be expensive due to the extensive risk analysis and iterative nature.
+3.Time-Consuming: Prolonged due to repeated cycles.
+
+where we use spiral model:-
+1.Suitable for large, complex, and high-risk projects.
+2.Ideal for projects with unclear or evolving requirements.
+
+4.V-Model (Verification and Validation Model)
+The V-Model is an extension of the Waterfall Model, where each development stage is associated with a corresponding testing phase. 
+It emphasizes verification and validation processes.
+
+Advantages:
+1.High Quality:Ensures high quality through continuous testing.
+2.Early Detection of Defects:Errors are detected early,reducing the cost of fixing defects.
+3.Structured:Provides a clear and structured approach.
+
+Disadvantages:
+1. More documentation (about test plan)
+2.Due to extensive testing, the cost can be high.
+
+where we use v-model:-
+1.Suitable for projects with well-defined requirements.
+2.Ideal for safety-critical systems (e.g., medical devices) where testing is crucial
+
+Comparison:
+1.Waterfall vs. Agile:
+Waterfall is better for projects with fixed requirements and low risk, while Agile is suitable for dynamic, evolving projects with high customer involvement.
+2.Waterfall vs. Spiral:
+Waterfall is simpler but less flexible, whereas Spiral provides better risk management and adaptability, making it ideal for high-risk projects.
+3.Waterfall vs. V-Model:
+V-Model offers improved testing and defect detection compared to Waterfall, making it better for projects where quality is paramount.
+4.Agile vs. Spiral:
+Agile is preferred for projects needing rapid delivery and continuous customer feedback, whereas Spiral is suitable for high-risk projects requiring extensive risk management.
+Agile vs. V-Model:
+Agile focuses on adaptability and customer collaboration, making it ideal for evolving requirements, while V-Model is better for projects needing rigorous testing and verification.

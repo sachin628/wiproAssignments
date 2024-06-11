@@ -1,0 +1,20 @@
+Assignement 3 :
+Identify a real-world application for both parallel computing and networked systems. Explain how 
+these technologies are used and why they are important in that context.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Parallel Computing
+Real-World Application: Weather Forecasting
+Used:
+Weather forecasting involves processing vast amounts of meteorological data from satellites, radar, sensors, and other sources to predict weather patterns.
+ This task requires the execution of complex numerical models that simulate atmospheric processes.
+ These models are computationally intensive and need to run in a timely manner to provide accurate forecasts.
+Why It's Important:
+1.Speed:-Parallel computing allows these models to run much faster than they would on a single processor.
+2.Efficiency
+
+**Networked Systems
+Real-World Application: Online Banking
+Used:
+Online banking systems rely on a network of connected computers to provide banking services over the Internet.
+These systems handle a variety of tasks, including processing transactions, updating account information, and providing customer support.

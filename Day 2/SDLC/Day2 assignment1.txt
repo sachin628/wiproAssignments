@@ -1,0 +1,55 @@
+Assignment 1: SDLC Overview - Create a one-page infographic that outlines the SDLC phases (Requirements, Design, Implementation, Testing, Deployment),
+ highlighting the importance of each phase and how they interconnect.
+
+                                                      Planning and Analysis
+                                                                |
+                                                                |
+                                                      Define Requirements
+                                                                |
+                                                                |
+                                                             Design
+                                                                |
+                                                                |
+                                                             Testing
+                                                                |
+                                                                |
+                                                            Deployment
+                                                                |
+                                                                |
+                                                            Maintenance
+
+1.Planning & Analysis
+The first phase of the SDLC is the project planning stage where you are gathering business requirements from your client or stakeholders. This phase is when you evaluate the feasibility of creating the product,
+ revenue potential, the cost of production, the needs of the end-users, etc.
+
+2. Define Requirements
+This phase is critical for converting the information gathered during the planning and analysis phase into clear requirements for the development team. 
+This process guides the development of several important documents
+: a software requirement specification (SRS) or product specification,
+ a Use Case document, and a Requirement Traceability Matrix document.
+
+3.Design:- The original plan and vision are elaborated into a software design 
+document (SDD) that includes the system design, programming language,
+ templates, platform to use, and application security measures.
+ This is also where you can flowchart how the software responds to user actions.
+4.Coding:=here is the actual  development starts.
+--> done by the developers
+--> this is the process where we start building the software and start writing the code for the product.
+
+5.testing- testing of the software is necessary to ensure its smooth execution. Although, minimal testing
+ is conducted at every stage of SDLC. Therefore, at this stage, all the 
+probable flaws are tracked, fixed, and retested. This ensures that the
+ product confronts the quality requirements of SRS. 
+
+6.deployment:-After detailed testing, the conclusive product is released in phases as per the organization’s strategy.
+ Then it is tested in a real industrial environment. It is important 
+to ensure its smooth performance. If it performs well, the organization 
+sends out the product as a whole.
+
+7.Maintaance:-Continuously monitor for vulnerabilities.
+Update software with security patches.
+In the maintenance stage, users may find bugs and errors that were missed in the earlier testing phase. 
+These bugs need to be fixed for better user experience and retention. 
+In some cases, these can lead to going back to the first step of the software development life cycle. 
+
+

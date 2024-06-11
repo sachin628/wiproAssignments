@@ -1,0 +1,91 @@
+Assignement 2:: Draw your Home Network Topology and explain how you are accessing the RPS Lab environment.
+
+Home Network Topology:-
+
+1.Router: This device connects to the Internet Service Provider (ISP) and provides internet access to the home network.
+2.Wi-Fi Router: Connected to the ISP modem/router, it creates a local network and provides both wired and wireless connectivity to devices in the home.
+3.Devices: Various devices such as a desktop computer, laptop, tablet, smartphone, and possibly smart home devices.
+
+Topology:
+
+1.ISP Modem/Router:
+Connected to the ISP's internet service.
+Provides a public IP address.
+2.Wi-Fi Router:
+Connected to the ISP modem/router via an Ethernet cable.
+Creates a local network (LAN).
+Provides both wired (Ethernet) and wireless (Wi-Fi) connectivity.
+3.Devices:
+Desktop Computer (Ethernet or Wi-Fi)
+Laptop (Wi-Fi)
+Tablet (Wi-Fi)
+Smartphone (Wi-Fi)
+Smart Home Devices (Wi-Fi)
+
+
+
+                         +-------------------+
+                         |    ISP Modem/     |
+                         |   Router Combo    |
+                         |   (Public IP)     |
+                         +--------+----------+
+                                  |
+                                  |
+                         +--------+----------+
+                         |      Home Router   |
+                         | (192.168.1.1)      |
+                         +--------+----------+
+                                  |
+                +----------------+----------------+
+                |                |                |
+         +------+--------+ +-----+-----+    +-----+-----+
+         |   Desktop PC  | | Laptop    |    | Smart TV  |
+         | (192.168.1.2) | | (WiFi)    |    | (WiFi)    |
+         +---------------+ +-----------+    +-----------+
+                                  |
+                                  |
+                         +--------+----------+
+                         |      WiFi Access   |
+                         |       Point        |
+                         | (192.168.1.3)      |
+                         +--------+----------+
+                                  |
+                +----------------+----------------+
+                |                |                |
+         +------+--------+ +-----+-----+    +-----+-----+
+         | Smartphone    | | Tablet     |    | IoT Device|
+         | (WiFi)        | | (WiFi)     |    | (WiFi)    |
+         +---------------+ +-----------+    +-----------+
+
+
+Accessing the RPS Lab Environment:-
+
+Device (Laptop/Computer)
+   |
+   | (VPN)
+   v
+Wi-Fi Router
+   |
+   | (Ethernet/Wi-Fi)
+   v
+ISP Modem/Router
+   |
+   | (Public IP/Internet)
+   v
+ISP Network
+   |
+   | (Internet)
+   v
+RPS Lab VPN Server
+   |
+   | (Internal Network)
+   v
+RPS Lab Machines/Servers
+
+1.Access Lab Resources:
+Once connected, I can access the lab resources, such as virtual machines, software applications, and data sets, as needed for my work.
+
+2.VPN Connection:
+Establish a secure VPN connection to the RPS Lab network. This might involve using a VPN client and entering credentials provided by the RPS Lab.
+The VPN connection creates a secure tunnel from my home network to the RPS Lab network, allowing access to resources as if I were physically present in the lab.
+

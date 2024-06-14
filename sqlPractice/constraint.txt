@@ -1,0 +1,73 @@
+create table employee2(
+id int primary key,
+name varchar2(30) not null,
+age number(10)
+);
+describe employee2;
+
+insert into employee2 values(2,'sumit',22);
+
+insert into employee2 values(3,'komal',22);
+
+select * from employee2;
+
+create table employee4(
+id number(10) primary key,
+name varchar2(30) not null,
+age number(10) check(age>22),
+dept varchar2(30) default 'trainee',
+email varchar2(30) unique,
+contact number(30) unique
+);
+
+desc employee4;
+
+insert into employee4 values(2,'ravi',33,'tester','ravi0@gmail.com',8392928);
+
+insert into employee4(id,name,age) values(3,'manish',34);
+
+select * from employee4;
+
+------------------------------------------
+table constraints
+
+create table employee5(
+id number(10) ,
+name varchar2(30) not null,
+age number(10),
+constraints pk1 primary key(id)
+);
+
+
+foreign 
+
+create table dept(
+id number(10) primary key ,
+name varchar2(30) not null,
+manager varchar2(30)
+);
+
+insert into dept values(104,'admin','himanshu');
+
+create table emp
+(
+id number(10) primary key,
+name varchar2(30),
+age number(30),
+salary number(10),
+deptid number(10),
+constraints fk1 foreign key(deptid) references dept(id) on delete set null);
+
+
+insert into emp values(2,'ravi',34, 34000,102);
+insert into emp values(3,'gagan',39, 20000,101);
+
+select * from emp;
+
+delete  from emp where id=101;
+
+drop table emp;
+
+delete from dept where id=101;
+
+

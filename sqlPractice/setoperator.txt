@@ -1,0 +1,44 @@
+
+create table noidaoffice
+(
+id number(10),
+name varchar2(30),
+dept varchar2(30)
+);
+
+create table delhioffice
+(
+id number(10),
+name varchar2(30),
+dept varchar2(30)
+);
+
+insert into noidaoffice values(1,'ravi','hr');
+insert into noidaoffice values(2,'raj','tester');
+insert into noidaoffice values(3,'komal','developer');
+insert into noidaoffice values(4,'rahul','hr');
+
+
+insert into delhioffice values(1,'ravi','hr');
+insert into delhioffice values(2,'mahesh','hr');
+insert into delhioffice values(3,'ankit','hr');
+insert into delhioffice values(4,'rahul','hr');
+
+select * from noidaoffice
+union
+select * from delhioffice;
+
+
+select * from noidaoffice
+union all
+select * from delhioffice;
+
+select * from noidaoffice
+intersect
+select * from delhioffice;
+
+select * from noidaoffice
+minus
+select * from delhioffice;
+
+

@@ -1,0 +1,19 @@
+select * from employee;
+
+select * from employee where salary <
+(select salary from employee where name='shiavm');
+
+select * from employee where salary >
+(select salary from employee where name='ankit');
+
+
+select * from employee where id in(1,2,5,7);
+
+
+select * from employee where id > any (6,4,7);
+
+select * from employee where id > all (6,4,7);
+
+select * from employee where salary > any
+(select salary from employee where dept='tester') and dept!='tester' ;
+

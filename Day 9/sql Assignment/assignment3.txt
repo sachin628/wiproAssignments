@@ -1,0 +1,34 @@
+
+
+-----------------------------Assignment 3
+
+create table customerstable
+(
+id number(10) primary key,
+name varchar2(30),
+email varchar2(30) unique,
+city varchar2(30),
+region varchar2(30)
+);
+
+
+
+create table ordertable
+(
+orderid number(10) primary key,
+oderdate number(30),
+customerid int,
+constraints fk1 foreign key(customerid) references customerstable(id) on delete set null
+);
+
+
+
+select c.id, c.name,c.email,c.city,c.region
+from customerstable c
+inner join ordertable on c.id = ordertable.cutomerid
+where c.region = 'north';
+
+select c.id, c.name,c.email,c.city,c.region
+from customerstable c
+left join ordertable on c.id = ordertable.cutomerid
+;

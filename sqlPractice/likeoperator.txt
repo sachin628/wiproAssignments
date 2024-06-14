@@ -1,0 +1,10 @@
+select * from employee;
+
+select * from employee where name like 's%'
+
+select * from employee where name like '%l'
+select * from employee where name like '%v'
+
+select * from employee where name like '_a%'
+
+select * from employee where name like '__u%'

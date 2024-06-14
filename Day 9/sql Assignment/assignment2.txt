@@ -1,0 +1,30 @@
+
+
+--write a select query to reterive all column from a customer table and modify it to return only the customer name , email  address 
+for a customer in a specific city.
+
+
+
+create table customer
+(
+id number(10) primary key,
+name varchar2(30),
+age number(30),
+city varchar2(30),
+email varchar2(30) unique,
+contact number(30) unique
+);
+
+insert into customer values(1,'ravi',33,'delhi','ravi0@gmail.com',8392928);
+
+insert into customer values(2,'mahesh',30,'noida','mahesh10@gmail.com',922492928);
+
+insert into customer values(3,'chetan',30,'noida','mcha0@gmail.com',922092928);
+
+insert into customer values(4,'gagan',20,'meerut','cheatn0@gmail.com',922192928);
+
+select * from customer;
+
+select name, email from customer where city='noida';
+
+select name, email from customer where city='delhi';

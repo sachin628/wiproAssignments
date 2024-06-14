@@ -1,0 +1,35 @@
+drop table employee;
+
+create table employee
+(
+id number(10),
+name varchar2(30),
+salary number(10,2),
+dept varchar2(20),
+age number
+);
+
+insert into employee values(2,'john',30000,'developer',23);
+insert into employee values(1,'amit',3000,'tester',20);
+insert into employee(id,name,age) values(3,'manish',30);
+insert into employee values(4,'komal',1000,'php',24);
+insert into employee values(7,'ankit',50000,'tester',32);
+
+select * from employee;
+select id, name from employee;
+select id, name,salary;
+
+update employee set salary=3500,dept='hr' where id =3;
+
+update employee set dept='developer' where id>=2;
+
+delete from employee where id=2;
+
+select id, name, salary,salary+1000 as bonus, salary/30 as perdaysalary  from employee;
+
+select * from employee where age>25;
+
+select * from employee where dept!='tester' and age >=25;
+
+
+

@@ -1,0 +1,24 @@
+select dept from employee group by dept;
+
+select dept, count(id) from employee group by dept;
+
+select sum(salary), min(salary),max(salary) from employee;
+
+select dept, count(id),sum(salary),min(salary),max(salary), avg(salary) from employee group by dept;
+
+select dept, sum(salary) from employee group by dept;
+
+select dept,count(id) from employee group by dept order by count(id) desc;
+
+insert into employee values(7,'sahil',8000,'hr',27);
+
+insert into employee values(9,'sourav',90000,'tester',29);
+
+
+select dept,count(id) from employee group by dept having count(id)>1 order by count(id) desc;
+
+select dept,count(id) from employee where  dept!='hr' group by dept having count(id)>=1 
+order by count(id) desc;
+
+select dept, min(salary) as minsalary from employee group by dept having min(salary) < 40000 order by minsalary;
+
